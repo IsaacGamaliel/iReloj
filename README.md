@@ -15,3 +15,6 @@ iReloj es un proyecto que consiste en ser un dispositivo portable cómodo, que s
 
 # Prototipo
 ![WhatsApp Image 2022-06-10 at 12 14 56 AM](https://user-images.githubusercontent.com/68245966/173080481-b01f618e-74fb-432e-b7ea-7b69f68015cb.jpeg)
+
+# Trello
+https://trello.com/b/ET21GXpT/ireloj
