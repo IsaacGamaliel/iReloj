@@ -10,3 +10,6 @@ iReloj es un proyecto que consiste en ser un dispositivo portable cómodo, que s
 | Módulo GPS NEO-6M  | ![Módulo GPS NEO-6M](https://media.naylampmechatronics.com/294-superlarge_default/modulo-gps-neo-6m.jpg)  | El receptor GPS más común y más conocido es el módulo NEO-6M. Todos los datos de posición GPS se pueden determinar con la ayuda de los satélites en órbita.  |
 | esp32-cam  | ![esp32-cam]([https://hackster.imgix.net/uploads/attachments/925687/esp-eye-1-1317x800_mD2IVcBoSI.png?auto=compress%2Cformat&w=900&h=675&fit=min](https://www.hwlibre.com/wp-content/uploads/2020/12/esp32-cam-1024x576.jpg.webp))  | Esto le permite nuevas funciones, como las de vigilancia o espionaje remoto capturando todo lo que ocurre cuando tú no estás y enviarlo a cualquier dispositivo para su grabación  |
 
+# Arquitectura(Modelo 3 capas)
+![image](https://user-images.githubusercontent.com/68245966/173076941-b6275311-959d-479a-8c91-311c853080a8.png)
+
