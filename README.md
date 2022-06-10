@@ -11,5 +11,7 @@ iReloj es un proyecto que consiste en ser un dispositivo portable cómodo, que s
 | esp32-cam  | ![esp32-cam]([https://hackster.imgix.net/uploads/attachments/925687/esp-eye-1-1317x800_mD2IVcBoSI.png?auto=compress%2Cformat&w=900&h=675&fit=min](https://www.hwlibre.com/wp-content/uploads/2020/12/esp32-cam-1024x576.jpg.webp))  | Esto le permite nuevas funciones, como las de vigilancia o espionaje remoto capturando todo lo que ocurre cuando tú no estás y enviarlo a cualquier dispositivo para su grabación  |
 
 # Arquitectura(Modelo 3 capas)
-![image](https://user-images.githubusercontent.com/68245966/173076941-b6275311-959d-479a-8c91-311c853080a8.png)
+![image](https://user-images.githubusercontent.com/68245966/173080326-2484b7ea-0a6a-48b9-b518-0b322f8e20b5.png)
 
+# Prototipo
+![WhatsApp Image 2022-06-10 at 12 14 56 AM](https://user-images.githubusercontent.com/68245966/173080481-b01f618e-74fb-432e-b7ea-7b69f68015cb.jpeg)
