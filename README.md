@@ -1,20 +1,57 @@
-# iReloj
-iReloj es un proyecto que consiste en ser un dispositivo portable cómodo, que solvente algunas de las necesidades del usuario. El reloj será capaz de recoger información importante para después mandarla a una base de datos y después analizarla para darle sugerencias o advertencias al usuario mediante notificaciones a su celular. Esto para que sea más ágil para el usuario.  Las situaciones que gestionara el dispositivo serán detector de temperaturas, esto con el fin de hacer recomendaciones al usuario en caso de haga frio o calor. Las sugerencias se le harán llegar a su celular mediante una sencilla e intuitiva aplicación móvil en donde algunas de las sugerencias serian: Portar un abrigo en caso de hacer frio o hidratarse en caso de hacer calor.  Otra de las situaciones será el movimiento, aquí se pretende que se analice los pasos dados diariamente, distancia recorrida y al final de la semana darle una estadística de su información.  El proyecto pretende crear un dispositivo inteligente capaz de ayudar a las personas en sus actividades diarias así como cuidarlas de diferentes riesgos que se viven día a día. 
+# Desarrollo para  dispositivos inteligentes
+## Nombre del proyecto: iReloj
+## Integrantes del equipo:
+- [•	Rojas Hernández Miguel Arturo]
+- [•	Muñiz Amaro Isaac Gamaliel]
+- [•	Miranda Valtierra Carlos Eduardo]
+- [•	Balderas Zamora José Guillermo.]
+# Objetivo del proyecto
+iReloj es un proyecto que consiste en ser un dispositivo portable cómodo, que solvente algunas de las necesidades del usuario. Algunas de las funcionalidades con las que contará el proyecto son, detección de temperatura, humedad, presión y tomar fotos para poder visualizarlas en la computadora. 
 
-# Componentes
-| Nombre de componente | Imagen | ¿Qué hace? |
-| ------------- | ------------- | ------------- |
-| Sensores DHT11 y DHT22  | ![Image text](https://user-images.githubusercontent.com/44191076/53887826-0ebece80-405e-11e9-997b-a9f1b5e67a41.jpg)  | Pueden medir tanto la humedad como la temperatura. Solo se utiliza un GPIO. La diferencia entre los dos es principalmente el rango de medición y la precisión. El DHT22 (el blanco) puede medir todos los rangos de humedad con una precisión del 2%. Mientras que el DHT11 (azul) solo puede medir áreas con un 20-90% de humedad y, sobre todo, la precisión es significativamente peor con un 5%. |
-| Sensores de gas MQ  | ![Sensor de Alcohol MQ3](https://naylampmechatronics.com/249-large_default/sensor-de-alcohol-mq3.jpg) | pueden detectar diferentes gases a temperatura ambiente.El MQ-2 puede reconocer metano, butano, GLP y humo, el MQ-3 detecta, por ejemplo, alcohol, etanol y humo, etc. |
-| Sensor de movimiento PIR  | ![Sensor de movimiento PIR](https://www.albri.com.mx/fotos_producto/5030.jpg)   | Tiene algunas ventajas sobre otros productos similares: además del bajo precio, solo envía una señal si algo se mueve. Esto te permite esperar los flancos de señal usando los GPIO. Además, se puede variar una resistencia para que solo se envíe una señal cuando el movimiento esté cerca, o se perciban cambios que ya están lejos  |
-| Módulo GPS NEO-6M  | ![Módulo GPS NEO-6M](https://media.naylampmechatronics.com/294-superlarge_default/modulo-gps-neo-6m.jpg)  | El receptor GPS más común y más conocido es el módulo NEO-6M. Todos los datos de posición GPS se pueden determinar con la ayuda de los satélites en órbita.  |
-| esp32-cam  | ![image](https://user-images.githubusercontent.com/68245966/173081085-2d94b969-3721-421c-9f12-b26354f1e223.png) | Esto le permite nuevas funciones, como las de vigilancia o espionaje remoto capturando todo lo que ocurre cuando tú no estás y enviarlo a cualquier dispositivo para su grabación  |
+# Visión
+Tener un prototipo final, que cumpla con las necesidades del usuario para ayudarlo a informar como esta su entorno día a día. 
+
+# Software empleado
+- [IDE 1.8.19]
+# Librerías usadas:
+- [AsyncTCP]
+- [CameraWebServer_Access_Point]
+- [ESPAsyncWebServer]
+- [NTPClient]
+
+# Hadware 
+![image](![image](![image](https://user-images.githubusercontent.com/68245966/184734671-daef5f7e-6f6d-478b-93ff-5cdaa2458e0b.png)
 
 # Arquitectura(Modelo 3 capas)
 ![image](![image](https://user-images.githubusercontent.com/68245966/184733253-13bfccf6-c8d2-44bf-b529-76c51282ec9f.png)
+# Historias de usuario
+1.- Detector de temperatura: Mandará la información a una pantalla del reloj para que sea visible por parte del usuario.
+2.- Cámara: El usuario podrá tomar fotografías.
+3.- Detector de presión: Mandará la información a una pantalla.
+4.- Detector de humedad: Mandará la información a una pantalla.
+5.- Detector de gas: para visualizarlo en pantalla y en dispositivo móvil.
+
+# Capturas de pantalla del tablero trello para cada uno de los sprints del proyecto
+![image](https://user-images.githubusercontent.com/68245966/184734969-13a443bd-0b4d-41d4-9edc-b8bfdce08c9f.png)
+
+![image](https://user-images.githubusercontent.com/68245966/184734992-74655573-6174-4ca1-b535-acbd3cf82ad4.png)
+
+![image](https://user-images.githubusercontent.com/68245966/184735012-95b90c16-33ba-4ec7-bd34-a5daf0955282.png)
+
+# Circuito
+![image](https://user-images.githubusercontent.com/68245966/184735088-374820a3-6ebf-460b-b4c1-deec13ca4b92.png)
+# Resultados
+Una primera fase en donde se estaba en prueba, con el sensor Bme680 impriminedo la información en la pantalla.
+![image](https://user-images.githubusercontent.com/68245966/184735132-62a1e072-03ce-4825-8a45-0938b9163a96.png)
 
 # Prototipo
 ![WhatsApp Image 2022-06-10 at 12 14 56 AM](https://user-images.githubusercontent.com/68245966/173080481-b01f618e-74fb-432e-b7ea-7b69f68015cb.jpeg)
+
+Reloj de papel con ESP32-CAM en un primera fase de diseño y funcionamiento.
+![image](https://user-images.githubusercontent.com/68245966/184735184-36e08d2b-6a2f-4505-82d4-295677dd2319.png)
+
+Proyecto terminado con material de plastico.
+![image](https://user-images.githubusercontent.com/68245966/184735227-485a2dc7-31bf-4053-a4be-89ea01e109af.png)
 
 # Trello
 https://trello.com/b/ET21GXpT/ireloj
