@@ -20,10 +20,10 @@ Tener un prototipo final, que cumpla con las necesidades del usuario para ayudar
 - NTPClient
 
 # Hadware 
-![image](![image](![image](https://user-images.githubusercontent.com/68245966/184734671-daef5f7e-6f6d-478b-93ff-5cdaa2458e0b.png)
+![image](![image](https://user-images.githubusercontent.com/68245966/184734671-daef5f7e-6f6d-478b-93ff-5cdaa2458e0b.png)
 
 # Arquitectura(Modelo 3 capas)
-![image](![image](https://user-images.githubusercontent.com/68245966/184733253-13bfccf6-c8d2-44bf-b529-76c51282ec9f.png)
+![image](https://user-images.githubusercontent.com/68245966/184733253-13bfccf6-c8d2-44bf-b529-76c51282ec9f.png)
 # Historias de usuario
 - Detector de temperatura: Mandará la información a una pantalla del reloj para que sea visible por parte del usuario.
 - Cámara: El usuario podrá tomar fotografías.
