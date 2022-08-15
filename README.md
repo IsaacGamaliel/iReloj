@@ -40,12 +40,13 @@ Tener un prototipo final, que cumpla con las necesidades del usuario para ayudar
 
 # Circuito
 ![image](https://user-images.githubusercontent.com/68245966/184735088-374820a3-6ebf-460b-b4c1-deec13ca4b92.png)
-# Resultados
-Una primera fase en donde se estaba en prueba, con el sensor Bme680 impriminedo la información en la pantalla.
-![image](https://user-images.githubusercontent.com/68245966/184735132-62a1e072-03ce-4825-8a45-0938b9163a96.png)
 
 # Prototipo
 ![WhatsApp Image 2022-06-10 at 12 14 56 AM](https://user-images.githubusercontent.com/68245966/173080481-b01f618e-74fb-432e-b7ea-7b69f68015cb.jpeg)
+
+# Resultados
+Una primera fase en donde se estaba en prueba, con el sensor Bme680 impriminedo la información en la pantalla.
+![image](https://user-images.githubusercontent.com/68245966/184735132-62a1e072-03ce-4825-8a45-0938b9163a96.png)
 
 Reloj de papel con ESP32-CAM en un primera fase de diseño y funcionamiento.
 
@@ -57,3 +58,4 @@ Proyecto terminado con material de plastico.
 
 # Trello
 https://trello.com/b/ET21GXpT/ireloj
+
