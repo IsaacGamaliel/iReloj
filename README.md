@@ -11,7 +11,7 @@ iReloj es un proyecto que consiste en ser un dispositivo portable cómodo, que s
 | esp32-cam  | ![image](https://user-images.githubusercontent.com/68245966/173081085-2d94b969-3721-421c-9f12-b26354f1e223.png) | Esto le permite nuevas funciones, como las de vigilancia o espionaje remoto capturando todo lo que ocurre cuando tú no estás y enviarlo a cualquier dispositivo para su grabación  |
 
 # Arquitectura(Modelo 3 capas)
-![image](https://user-images.githubusercontent.com/68245966/173080326-2484b7ea-0a6a-48b9-b518-0b322f8e20b5.png)
+![image](![image](https://user-images.githubusercontent.com/68245966/184733253-13bfccf6-c8d2-44bf-b529-76c51282ec9f.png)
 
 # Prototipo
 ![WhatsApp Image 2022-06-10 at 12 14 56 AM](https://user-images.githubusercontent.com/68245966/173080481-b01f618e-74fb-432e-b7ea-7b69f68015cb.jpeg)
