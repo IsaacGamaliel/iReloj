@@ -12,15 +12,16 @@ iReloj es un proyecto que consiste en ser un dispositivo portable cómodo, que s
 Tener un prototipo final, que cumpla con las necesidades del usuario para ayudarlo a informar como esta su entorno día a día. 
 
 # Software empleado
-- IDE 1.8.19
+- Arduino IDE 1.8.19: Permite escribir, depurar, editar y grabar nuestro programa (llamados “sketches” en el mundo Arduino) de una manera sumamente sencilla, en gran parte a esto se debe el éxito de Arduino, a su accesibilidad.
+
 # Librerías usadas:
-- AsyncTCP
-- CameraWebServer_Access_Point
-- ESPAsyncWebServer
-- NTPClient
+- AsyncTCP: Biblioteca asíncrona SSL TCP para ESP32.
+- CameraWebServer_Access_Point: para establecer una conexión inalámbrica entre equipos y pueden formar una red inalámbrica externa (local o internet) con la que interconectar dispositivos móviles o tarjetas de red inalámbricas.
+- ESPAsyncWebServer : Podemos crear un servidor asíncrono, es decir, que es capaz de atender a varios clientes de forma simultánea.
+- NTPClient: Es un protocolo de Internet para sincronizar los relojes de los sistemas informáticos a través del enrutamiento de paquetes.
 
 # Hadware 
-![image](![image](https://user-images.githubusercontent.com/68245966/184734671-daef5f7e-6f6d-478b-93ff-5cdaa2458e0b.png)
+![image](https://user-images.githubusercontent.com/68245966/184734671-daef5f7e-6f6d-478b-93ff-5cdaa2458e0b.png)
 
 # Arquitectura(Modelo 3 capas)
 ![image](https://user-images.githubusercontent.com/68245966/184733253-13bfccf6-c8d2-44bf-b529-76c51282ec9f.png)
@@ -58,4 +59,6 @@ Proyecto terminado con material de plastico.
 
 # Trello
 https://trello.com/b/ET21GXpT/ireloj
+
+# Youtube
 
