@@ -24,7 +24,8 @@ Tener un prototipo final, que cumpla con las necesidades del usuario para ayudar
 ![image](https://user-images.githubusercontent.com/68245966/184734671-daef5f7e-6f6d-478b-93ff-5cdaa2458e0b.png)
 
 # Arquitectura(Modelo 3 capas)
-![image](https://user-images.githubusercontent.com/68245966/184733253-13bfccf6-c8d2-44bf-b529-76c51282ec9f.png)
+![image](https://user-images.githubusercontent.com/68245966/184910048-b9b76973-c826-42f1-963f-64314de4c839.png)
+
 # Historias de usuario
 - Detector de temperatura: Mandará la información a una pantalla del reloj para que sea visible por parte del usuario.
 - Cámara: El usuario podrá tomar fotografías.
@@ -61,4 +62,4 @@ Proyecto terminado con material de plastico.
 https://trello.com/b/ET21GXpT/ireloj
 
 # Youtube
-
+https://youtu.be/qDpQkG1Gta0
