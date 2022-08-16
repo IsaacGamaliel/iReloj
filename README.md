@@ -1,7 +1,7 @@
 # Desarrollo para  dispositivos inteligentes
 ## Nombre del proyecto: iReloj
 
-# Youtube
+# Video promocionando ¡Reloj
 https://youtu.be/qDpQkG1Gta0
 
 ## Integrantes del equipo:
